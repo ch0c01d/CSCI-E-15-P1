@@ -8,6 +8,7 @@
 
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="https://bootswatch.com/flatly/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
 
 		<style type="text/css">
 			#me {
@@ -19,7 +20,7 @@
 
 	<body>
 		<div class="container">
-			<h1 class="text-center">Egar Riski Santoso</h1>
+			<h1 class="text-center" style="text-decoration: underline;">Egar Riski Santoso</h1>
 
 			<img src="img/me.jpg" id="me" class="img-thumbnail text-center" alt="Egar Riski Santoso" width="300" height="300" />
 
@@ -38,47 +39,179 @@
 
 				<div class="col-md-6">
 					<ul class="nav nav-tabs" role="tablist">
-						<li role="presentation" class="active"><a href="#p2" aria-controls="p2" role="tab" data-toggle="tab">P2 - PHP Basics</a></li>
-						<li role="presentation"><a href="#p3" aria-controls="p3" role="tab" data-toggle="tab">P3 - Laravel Basics</a></li>
-						<li role="presentation"><a href="#p4" aria-controls="p4" role="tab" data-toggle="tab">P4 - Final</a></li>
+						<li role="presentation" class="active">
+							<a href="#info" aria-controls="info" role="tab" data-toggle="tab"><i class="fa fa-list" aria-hidden="true"></i> Info</a>
+						</li>
+
+						<li role="presentation">
+							<a href="#p2" aria-controls="p2" role="tab" data-toggle="tab"><i class="fa fa-list" aria-hidden="true"></i> P2 - PHP Basics</a>
+						</li>
+
+						<li role="presentation">
+							<a href="#p3" aria-controls="p3" role="tab" data-toggle="tab"><i class="fa fa-list" aria-hidden="true"></i> P3 - Laravel Basics</a>
+						</li>
+
+						<li role="presentation">
+							<a href="#p4" aria-controls="p4" role="tab" data-toggle="tab"><i class="fa fa-list" aria-hidden="true"></i> P4 - Final</a>
+						</li>
 					</ul>
 
 					<div class="tab-content">
-						<div role="tabpanel" class="tab-pane fade in active" id="p2">
-							<div class="panel panel-info">
-								<div class="panel-heading">P2 - PHP Basics</div>
-
+						<div role="tabpanel" class="tab-pane fade in active" id="info">
+							<div class="panel panel-default">
 								<div class="panel-body">
-									<ul class="list-group">
-										<li class="list-group-item"><span class="badge">[ Coming Soon ]</span> View</li>
-										<li class="list-group-item"><span class="badge">[ Coming Soon ]</span> Github</li>
-									</ul>
+									<table class="table table-hover table-striped table-responsive">
+										<tbody style="text-align:center;">
+											<tr class="info">
+												<td colspan="2"><i class="fa fa-user" aria-hidden="true"></i> Personal</td>
+											</tr>
+
+											<tr>
+												<td>Name</td>
+												<td>Egar Riski Santoso</td>
+											</tr>
+
+											<tr>
+												<td>Age</td>
+												<td>20 years</td>
+											</tr>
+
+											<tr>
+												<td>Email</td>
+												<td><a href="mailto:egarg4ul@gmail.com" target="_self">egarg4ul@gmail.com</a></td>
+											</tr>
+
+											<tr class="info">
+												<td colspan="2"><i class="fa fa-certificate" aria-hidden="true"></i> Skills</td>
+											</tr>
+
+											<tr>
+												<td>HTML5 | CSS3 | jQuery</td>
+
+												<td>
+													<div class="progress" style="margin-top:5px;">
+														<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+															<span class="sr-only">90%</span>
+														</div>
+													</div>
+												</td>
+											</tr>
+
+											<tr>
+												<td>PHP5 | PHP7 | MySQL</td>
+
+												<td>
+													<div class="progress" style="margin-top:5px;">
+														<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+															<span class="sr-only">80%</span>
+														</div>
+													</div>
+												</td>
+											</tr>
+
+											<tr>
+												<td>Javascript | Electron | NodeJS</td>
+
+												<td>
+													<div class="progress" style="margin-top:5px;">
+														<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+															<span class="sr-only">60%</span>
+														</div>
+													</div>
+												</td>
+											</tr>
+
+											<tr>
+												<td>Security Research</td>
+
+												<td>
+													<div class="progress" style="margin-top:5px;">
+														<div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+															<span class="sr-only">70%</span>
+														</div>
+													</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+
+						<div role="tabpanel" class="tab-pane fade" id="p2">
+							<div class="panel panel-default">
+								<div class="panel-body">
+									<table class="table table-hover table-striped table-responsive">
+										<tbody class="text-center">
+											<tr>
+												<td><i class="fa fa-search-plus" aria-hidden="true"></i> View</td>
+
+												<td>
+													<span class="label label-info" style="font-weight:bold;color:#fff;">Coming Soon</span>
+												</td>
+											</tr>
+
+											<tr>
+												<td><i class="fa fa-github" aria-hidden="true"></i> Github</td>
+
+												<td>
+													<span class="label label-primary" style="font-weight:bold;color:#fff;">Coming Soon</span>
+												</td>
+											</tr>
+										</tbody>
+									</table>
 								</div>
 							</div>
 						</div>
 
 						<div role="tabpanel" class="tab-pane fade" id="p3">
-							<div class="panel panel-info">
-								<div class="panel-heading">P3 - Laravel Basics</div>
-
+							<div class="panel panel-default">
 								<div class="panel-body">
-									<ul class="list-group">
-										<li class="list-group-item"><span class="badge">[ Coming Soon ]</span> View</li>
-										<li class="list-group-item"><span class="badge">[ Coming Soon ]</span> Github</li>
-									</ul>
+									<table class="table table-hover table-striped table-responsive">
+										<tbody class="text-center">
+											<tr>
+												<td><i class="fa fa-search-plus" aria-hidden="true"></i> View</td>
+
+												<td>
+													<span class="label label-info" style="font-weight:bold;color:#fff;">Coming Soon</span>
+												</td>
+											</tr>
+
+											<tr>
+												<td><i class="fa fa-github" aria-hidden="true"></i> Github</td>
+
+												<td>
+													<span class="label label-primary" style="font-weight:bold;color:#fff;">Coming Soon</span>
+												</td>
+											</tr>
+										</tbody>
+									</table>
 								</div>
 							</div>
 						</div>
 
 						<div role="tabpanel" class="tab-pane fade" id="p4">
-							<div class="panel panel-info">
-								<div class="panel-heading">P4 - Final</div>
-
+							<div class="panel panel-default">
 								<div class="panel-body">
-									<ul class="list-group">
-										<li class="list-group-item"><span class="badge">[ Coming Soon ]</span> View</li>
-										<li class="list-group-item"><span class="badge">[ Coming Soon ]</span> Github</li>
-									</ul>
+									<table class="table table-hover table-striped table-responsive">
+										<tbody class="text-center">
+											<tr>
+												<td><i class="fa fa-search-plus" aria-hidden="true"></i> View</td>
+
+												<td>
+													<span class="label label-info" style="font-weight:bold;color:#fff;">Coming Soon</span>
+												</td>
+											</tr>
+
+											<tr>
+												<td><i class="fa fa-github" aria-hidden="true"></i> Github</td>
+
+												<td>
+													<span class="label label-primary" style="font-weight:bold;color:#fff;">Coming Soon</span>
+												</td>
+											</tr>
+										</tbody>
+									</table>
 								</div>
 							</div>
 						</div>
