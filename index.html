@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Egar Santoso P1 - DWA15 Portfolio</title>
+
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="https://bootswatch.com/flatly/bootstrap.min.css" />
+
+		<style type="text/css">
+			#me {
+				display:  block;
+				margin: 0 auto;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="container">
+			<h1 class="text-center">Egar Riski Santoso</h1>
+
+			<img src="img/me.jpg" id="me" class="img-thumbnail text-center" alt="Egar Riski Santoso" width="300" height="300" />
+
+			<div class="row">
+				<div class="col-md-3"></div>
+
+				<div class="col-md-6">
+					<hr />
+				</div>
+
+				<div class="col-md-3"></div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-3"></div>
+
+				<div class="col-md-6">
+					<ul class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active"><a href="#p2" aria-controls="p2" role="tab" data-toggle="tab">P2 - PHP Basics</a></li>
+						<li role="presentation"><a href="#p3" aria-controls="p3" role="tab" data-toggle="tab">P3 - Laravel Basics</a></li>
+						<li role="presentation"><a href="#p4" aria-controls="p4" role="tab" data-toggle="tab">P4 - Final</a></li>
+					</ul>
+
+					<div class="tab-content">
+						<div role="tabpanel" class="tab-pane fade in active" id="p2">
+							<div class="panel panel-info">
+								<div class="panel-heading">P2 - PHP Basics</div>
+
+								<div class="panel-body">
+									<ul class="list-group">
+										<li class="list-group-item"><span class="badge">[ Coming Soon ]</span> View</li>
+										<li class="list-group-item"><span class="badge">[ Coming Soon ]</span> Github</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div role="tabpanel" class="tab-pane fade" id="p3">
+							<div class="panel panel-info">
+								<div class="panel-heading">P3 - Laravel Basics</div>
+
+								<div class="panel-body">
+									<ul class="list-group">
+										<li class="list-group-item"><span class="badge">[ Coming Soon ]</span> View</li>
+										<li class="list-group-item"><span class="badge">[ Coming Soon ]</span> Github</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div role="tabpanel" class="tab-pane fade" id="p4">
+							<div class="panel panel-info">
+								<div class="panel-heading">P4 - Final</div>
+
+								<div class="panel-body">
+									<ul class="list-group">
+										<li class="list-group-item"><span class="badge">[ Coming Soon ]</span> View</li>
+										<li class="list-group-item"><span class="badge">[ Coming Soon ]</span> Github</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3"></div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$("#p2 a").click(function (e) {
+					e.preventDefault();
+
+					$(this).tab("show");
+				});
+
+				$("#p3 a").click(function (e) {
+					e.preventDefault();
+
+					$(this).tab("show");
+				});
+
+				$("#p4 a").click(function (e) {
+					e.preventDefault();
+
+					$(this).tab("show");
+				});
+			});
+		</script>
+	</body>
+</html>
